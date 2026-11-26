@@ -1,7 +1,13 @@
 import UserDesktopHeader from "../components/user/Header/UserDesktopHeader";
 import UserMobileHeader from "../components/user/Header/UserMobileHeader";
 
-export default function UserLayout({ children }) {
+import type { ReactNode } from "react";
+
+export default function UserLayout({
+  children,
+}: {
+  children: ReactNode;
+}) { {
     return (
         <>
             <div className="hidden min-[769px]:block">
