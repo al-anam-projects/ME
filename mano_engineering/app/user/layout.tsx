@@ -7,7 +7,7 @@ export default function UserLayout({
   children,
 }: {
   children: ReactNode;
-}) { {
+})  {
     return (
         <>
             <div className="hidden min-[769px]:block">
