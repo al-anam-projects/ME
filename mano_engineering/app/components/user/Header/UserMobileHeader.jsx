@@ -318,7 +318,7 @@ export default function UserMobileHomePage() {
 
             <p className="text-gray-500 text-[12px]  absolute bottom-5">
 
-            © {new Date().getFullYear()} Mano Engineering. All rights reserved.
+            © 2026 Mano Engineering. All rights reserved.
            </p>
            </div>
 
