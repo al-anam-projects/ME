@@ -1,12 +1,10 @@
 import UserDesktopHeader from "../components/user/Header/UserDesktopHeader";
 import UserMobileHeader from "../components/user/Header/UserMobileHeader";
+import UserMobileFooter from "../components/user/Footer/UserMobileFooter"
 
-import type { ReactNode } from "react";
 
 export default function UserLayout({
   children,
-}: {
-  children: ReactNode;
 })  {
     return (
         <>
@@ -21,6 +19,10 @@ export default function UserLayout({
             <main>
                 {children}
             </main>
+
+              <div className="block min-[769px]:hidden">
+                <UserMobileFooter />
+            </div>
         </>
     );
 }
