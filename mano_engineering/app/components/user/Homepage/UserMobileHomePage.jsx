@@ -43,7 +43,7 @@ export default function UserMobileHomePage(){
 
             <Image  src={Banner} alt="banenr"
             className="
-            h-[240px]
+            h-[240px] min-[400px]:h-[290px]
 
             "/>
 
@@ -242,7 +242,7 @@ export default function UserMobileHomePage(){
 
         <Image src={images[currentimage]}  alt="project images"
         className="
-        w-[calc(100%-32px)] h-[180px] min-[400px]:h-[230px]
+        w-[calc(100%-32px)] h-[180px] min-[400px]:h-[240px]
         rounded-[10px] mx-[15px]
         object-cover
 
