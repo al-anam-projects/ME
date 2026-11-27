@@ -294,7 +294,7 @@ export default function UserMobileHomePage() {
                
                <Link href={"user/"}  
                className="
-               flex items-center ml-[30px] mt-[30px] gap-[10px]
+               flex items-center ml-[30px] mt-[20px] gap-[10px]
                ">
                <Mail className="text-orange-300" size={15}/>
                <p className="text-gray-500 font-[700] text-[10px] " >Contact Us</p>
@@ -317,7 +317,7 @@ export default function UserMobileHomePage() {
            
            <div className="flex items-center justify-center">
 
-            <p className="text-gray-500 text-[10px]  absolute bottom-5">
+            <p className="text-gray-500 text-[10px]  absolute bottom-[25px]">
 
             © 2026 Mano Engineering. All rights reserved.
            </p>
