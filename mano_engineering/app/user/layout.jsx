@@ -1,6 +1,8 @@
 import UserDesktopHeader from "../components/user/Header/UserDesktopHeader";
 import UserMobileHeader from "../components/user/Header/UserMobileHeader";
 import UserMobileFooter from "../components/user/Footer/UserMobileFooter"
+import UserDesktopFooter from "../components/user/Footer/UserDesktopFooter"
+
 
 
 export default function UserLayout({
@@ -22,6 +24,10 @@ export default function UserLayout({
 
               <div className="block min-[769px]:hidden">
                 <UserMobileFooter />
+            </div>
+
+            <div className="hidden min-[769px]:block">
+                <UserDesktopFooter />
             </div>
         </>
     );

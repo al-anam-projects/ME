@@ -61,14 +61,14 @@ export default function UserDesktopHomePage() {
 
         <>
 
-            <div className="relative mx-[150px] bg-white/90">
+            <div className="relative mx-[50px] bg-white/90">
 
                 {/* ------------------------- banner ------------------ */}
 
                 <Image
                     src={Banner}
                     alt="banner"
-                    className="h-[400px] w-full object-cover"
+                    className="h-[350px] w-full object-cover"
                 />
 
 
@@ -135,7 +135,7 @@ export default function UserDesktopHomePage() {
                     flex justify-between items-center
                     rounded-[10px]
                     bg-gray-100
-                    w-[1100px] mx-[250px]
+                     mx-[40px] w-[calc(100%-50px)]
                     shadow-lg
                     relative mt-[-25px] p-[10px]
                 ">
