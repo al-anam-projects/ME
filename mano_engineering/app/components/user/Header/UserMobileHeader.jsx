@@ -317,7 +317,7 @@ export default function UserMobileHomePage() {
            
            <div className="flex items-center justify-center">
 
-            <p className="text-gray-500 text-[10px]  absolute bottom-[35px]">
+            <p className="text-gray-500 text-[10px] mt-[13px]">
 
             © 2026 Mano Engineering. All rights reserved.
            </p>
