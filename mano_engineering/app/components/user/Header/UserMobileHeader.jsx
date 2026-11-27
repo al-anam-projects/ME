@@ -89,6 +89,7 @@ export default function UserMobileHomePage() {
               rounded-[5px]
               p-[5px]
               border-orange-400
+              cursor-pointer
             "
             />
 
@@ -97,7 +98,7 @@ export default function UserMobileHomePage() {
             src={logo}
             priority
             alt="logo"
-             className="w-[250px] h-[150px]"
+             className="w-[200px] h-auto"
 
             />
 
@@ -122,7 +123,7 @@ export default function UserMobileHomePage() {
         
         `}>
 
-            {/* ---------------- tiop bar -------------- */}
+            {/* ---------------- top bar -------------- */}
 
            <div className="
             flex  justify-between items-center
@@ -135,7 +136,7 @@ export default function UserMobileHomePage() {
             src={logo}
             priority
             alt="logo"
-             className="w-[290px] h-[190px] "
+             className="w-[230px] h-auto "
 
             />
 
@@ -149,7 +150,7 @@ export default function UserMobileHomePage() {
                  <X 
             onClick={()=>setmenu(false)}
             color="white"
-            size={35}
+            size={25}
             
             
             />
@@ -166,17 +167,17 @@ export default function UserMobileHomePage() {
              {/* ------------ top conetent ---------------- */}
             <h2 className={
                 `
-                text-white font-[700] text-[25px] pl-[20px]
+                text-white font-[700] text-[20px] pl-[20px]
                 `
             }>
                 Explore Our Website
             </h2>
             <p  className={
                 `
-                text-gray-500 font-[700] text-[12px] pl-[20px]
+                text-gray-500 font-[700] text-[10px] pl-[20px]
                 `
             }>
-                Discover more about our websiite
+                Discover more about our Bussiness
             </p>
 
             {/* -------------- middle  content ---------------- */}
@@ -195,7 +196,7 @@ export default function UserMobileHomePage() {
         href={item.href}
         onClick={() => setmenu(false)}
        className={`
-    relative flex gap-[20px] w-[390px]
+    relative flex gap-[20px] w-[calc(100%-32px)]
     rounded-[10px] p-[10px] mt-[10px] items-center
     ${
         isActive
@@ -276,9 +277,9 @@ export default function UserMobileHomePage() {
            
 
             <Link href={"/user/quote"} className="
-             mt-[40px] border border-orange-200 w-[370px] h-[60px] text-center
-           flex items-center justify-center mx-[25px] rounded-[15px] bg-orange-400
-           font-[700]
+             mt-[20px] border border-orange-500 w-[calc(100%-50px)] h-[60px] text-center
+           flex items-center justify-center  rounded-[15px] bg-orange-400
+           font-[700] mx-6 shadow-xxl
             text-white
             ">
             
@@ -295,8 +296,8 @@ export default function UserMobileHomePage() {
                className="
                flex items-center ml-[30px] mt-[30px] gap-[10px]
                ">
-               <Mail className="text-orange-300" size={20}/>
-               <p className="text-gray-500 font-[700] text-[12px] " >Contact Us</p>
+               <Mail className="text-orange-300" size={15}/>
+               <p className="text-gray-500 font-[700] text-[10px] " >Contact Us</p>
                
                </Link>
 
@@ -304,8 +305,8 @@ export default function UserMobileHomePage() {
                className="
                flex items-center ml-[30px] mt-[10px] gap-[10px]
                ">
-               <MapPin className="text-orange-300 " size={20}/>
-               <p className="text-gray-500 font-[700] text-[12px] " >Mano Engineering</p>
+               <MapPin className="text-orange-300 " size={15}/>
+               <p className="text-gray-500 font-[700] text-[10px] " >Mano Engineering</p>
                
                </Link>
 
@@ -316,7 +317,7 @@ export default function UserMobileHomePage() {
            
            <div className="flex items-center justify-center">
 
-            <p className="text-gray-500 text-[12px]  absolute bottom-5">
+            <p className="text-gray-500 text-[10px]  absolute bottom-5">
 
             © 2026 Mano Engineering. All rights reserved.
            </p>
